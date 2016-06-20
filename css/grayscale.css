@@ -291,17 +291,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
 
-}
-
-.typeform-section {
-    width: 100%;
-    background-color: transparent;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 @media(min-width:767px) {
