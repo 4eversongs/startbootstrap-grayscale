@@ -297,6 +297,7 @@ a:focus {
 
 .typeform-section {
     width: 100%;
+    background-color: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
