@@ -153,7 +153,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 10px 0;
+    padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url(../img/firstdance3.png) no-repeat bottom center scroll;
@@ -185,7 +185,8 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
-        
+        position: relative;
+        top: 100px;
     }
 
     .intro .intro-body .intro-text {
