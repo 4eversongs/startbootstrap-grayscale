@@ -327,9 +327,9 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid rgba(255,255,255,.1);
+    border: 1px solid #faebd7;
     outline: 0;
-    color: rgba(255,255,255,.1);
+    color: #faebd7;
     background-color: transparent;
 }
 
