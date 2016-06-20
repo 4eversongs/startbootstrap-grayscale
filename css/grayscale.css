@@ -38,7 +38,7 @@ p {
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 10px;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -176,7 +176,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
-        vertical-align: bottom;
+        
     }
 
     .intro .intro-body .intro-text {
