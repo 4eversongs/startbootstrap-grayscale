@@ -71,6 +71,8 @@ a:focus {
 }
 
 .typeform-share {
+    position: relative
+    top:10px;
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;   
