@@ -176,11 +176,11 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
-        margin-top: 500px;
     }
 
     .intro .intro-body .intro-text {
         font-size: 26px;
+        vertical-align: top;
     }
 }
 
