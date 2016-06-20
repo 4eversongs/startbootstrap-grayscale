@@ -176,6 +176,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
+        margin-top: 100px;
     }
 
     .intro .intro-body .intro-text {
@@ -312,10 +313,10 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     outline: 0;
     color: #fff;
-    background-color: #fff;
+    background-color: #transparent;
 }
 
 ul.banner-social-buttons {
