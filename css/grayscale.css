@@ -401,7 +401,7 @@ Image credits: unsplash.com
     width: 100%;
 }
 .fade-carousel .carousel-inner .item {
-    height: 75vh;
+    height: 100vh;
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
