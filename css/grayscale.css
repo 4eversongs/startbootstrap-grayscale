@@ -27,7 +27,11 @@ h1 {
 }
 
 
-h2,
+h2  {
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
 h3,
 h4,
 h5,
