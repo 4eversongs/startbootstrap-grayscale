@@ -533,14 +533,7 @@ p { margin: 0; }
 .credits { position: absolute; left: 20px; bottom: 20px; color: #ccc; font-size: 14px; }
 .credits a  { color: #26C5CB; }
 
-/* Centering */
-#container, #progress, #player, #flip-back, .cover, .playlist {
-	  position: absolute;
-	  margin: auto;
-	  top: 0;
-	  left: 0;
-	  right: 0;
-  	bottom: 0;
+
 }
 
 #container {
