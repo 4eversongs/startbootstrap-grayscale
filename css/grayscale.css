@@ -332,30 +332,6 @@ a:focus {
     background-color: rgba(175, 139, 105, .5);
 }
 
-.socialbtn {
-    border-radius: 0;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.socialbtn-default {
-    border: 0px;
-    color: #f4f4f4;
-    background-color: #000;
-}
-
-.socialbtn-default:hover,
-.socialbtn-default:focus {
-    border: 0px;
-    outline: 0;
-    color: #fff;
-    background-color: rgba(175, 139, 105, .5);
-}
-
 ul.banner-social-buttons {
     margin-top: 0;
 }
