@@ -532,12 +532,11 @@ Image credits: unsplash.com
 }
 /*Change icons circle size and color here*/
 .social-icons .fa {
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	line-height: 50px;
 	text-align: center;
 	color: #FFF;
-	color: rgba(255, 255, 255, 0.8);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -556,7 +555,7 @@ Image credits: unsplash.com
 }
 
 .social-icons .fa:hover, .social-icons .fa:active {
-	color: #FFF;
+	color: #af8b69;
 	-webkit-box-shadow: 1px 1px 3px #333;
 	-moz-box-shadow: 1px 1px 3px #333;
 	box-shadow: 1px 1px 3px #333; 
