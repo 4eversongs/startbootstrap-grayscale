@@ -536,7 +536,7 @@ Image credits: unsplash.com
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
-	color: #FFF;
+	color: transparent;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
