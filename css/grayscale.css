@@ -630,7 +630,14 @@ Image credits: unsplash.com
   }
 }
 
-
+a {
+  color: #4183c4;
+  text-decoration: none;
+  
+  &:hover {
+    color: lighten(#4183c4, 15%);
+  
+}
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
