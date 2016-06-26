@@ -235,7 +235,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #af8b69;
+    color: #fff;
     background: rgba(255,255,255,.1);
 }
 
