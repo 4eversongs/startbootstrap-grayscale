@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
   $(document).ready(function(){
     $.stratus({
       auto_play: true,
@@ -8,4 +8,4 @@
       random: true
     });
   });
-</script>
+
