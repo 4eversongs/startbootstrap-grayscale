@@ -164,7 +164,7 @@ a:focus {
     display: table;
     width: 100%;
     height: 100%;
-    padding: 100px;
+    padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url(../img/firstdance3.png) no-repeat bottom center scroll;
