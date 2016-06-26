@@ -328,7 +328,7 @@ a:focus {
     border: 1px solid #af8b69;
     outline: 0;
     color: #fff;
-    background-color: rgba(175, 139, 105, .5);
+    background-color: #000;
 }
 
 ul.banner-social-buttons {
