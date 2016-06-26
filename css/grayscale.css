@@ -428,6 +428,16 @@ Image credits: unsplash.com
            -o-transform: translate3d(-50%,-50%,0);
               transform: translate3d(-50%,-50%,0);
 }
+
+.hero-default:hover,
+.hero-default:focus {
+    border: 1px solid #af8b69;
+    outline: 0;
+    color: #fff;
+    background-color: rgba(175, 139, 105, .5);
+	
+}
+
 .hero h1 {
     font-size: 6em;    
     font-weight: bold;
