@@ -477,15 +477,7 @@ Image credits: unsplash.com
 /********************************/
 /*          Custom Buttons      */
 /********************************/
-.btn.btn-lg {padding: 10px 40px;}
-.btn.btn-hero,
-.btn.btn-hero:hover,
-.btn.btn-hero:focus {
-    color: #af8b69;
-    background-color: #000000;
-    border-color: #000000;
-    outline: none;
-    margin: 20px auto;
+
     
  
 }
