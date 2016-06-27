@@ -1,1 +1,324 @@
+/*
+ * Simple Instagram Video
+ * Version: 1.0
+ *
+ * Author: Chris Rivers
+ * http://chrisriversdesign.com
+ *
+ *
+ * Changelog: 
+ * Version: 1.0
+ *
+ */
+
+.instagram-photo {
+	display: inline-block;
+    height: 225px;
+	margin:10px;
+    width: 225px;
+	position:relative;
+}
+
+.instagram-photo img { display:block; }
+
+.instagram-photo .instagram-hover-cover {
+	background:#111;
+	bottom:0;
+	overflow:hidden;
+	position:absolute;
+	z-index:1000;
+}
+
+.instagram-photo .instagram-hover-cover h3 { color:#fff; line-height: 20px; margin:15px 17px 0 17px; text-transform:capitalize; }
+.instagram-photo .instagram-hover-cover em { display:inline-block; font-size:11px; font-style:normal; height: 14px; margin: 0 17px; text-transform:uppercase; }
+.instagram-photo .instagram-hover-cover p { color:#D7D7D7; line-height:17px; margin: -1px 17px 0 17px; }
+
+.instagram-theatre {
+    margin-left: 370px;
+	padding-bottom: 62px;
+	position: absolute;
+	top: 61px;
+    width: 863px;
+    z-index: 99;
+}
+
+#seachInstagramLoadMoreContainer {
+	text-align:center;
+}
+
+.instagram-playlist .instagram-photo {
+	background: #000000;
+	float:left;
+	height:480px;
+	margin:0;
+	width:480px;
+}
+
+.instagram-playlist .video-nav {
+	background: none repeat scroll 0 0 #101010;
+	float: left;
+	padding-bottom: 29px;
+	position:relative;
+	width: 435px;
+}
+
+.instagram-playlist .video-nav .controls { 
+	background: #101010;
+	bottom:0;
+    padding: 5px 21px 3px;
+    position: absolute;
+    width: 393px;
+}
+
+.instagram-playlist .video-nav ul {
+	height: 441px;
+	list-style: none outside none;
+	margin: 0;
+	overflow:hidden;
+	padding: 0 0 10px;
+}
+
+.instagram-playlist .video-nav li {
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #262626;
+	cursor:pointer;
+	margin-bottom: 0;
+	padding: 12px 21px;
+}
+
+.instagram-playlist .video-nav li:hover {
+	background:#1F1F1F;
+}
+
+.instagram-playlist .video-nav li.first {}
+.instagram-playlist .video-nav li.last {}
+
+.instagram-playlist .video-nav li img {
+	float: left;
+    height: 80px;
+    margin-right: 20px;
+    width: 80px;
+}
+
+.instagram-playlist .video-nav li .content{
+	float:left;
+	width: 292px;
+}
+
+.instagram-playlist .video-nav li .content h4 {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 19px;
+	margin: 0 0 0;
+}
+
+.instagram-playlist .video-nav li .content em {
+	font-size: 11px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.instagram-playlist .video-nav li .content p {
+	color: #9F9F9F;
+	font-size: 11px;
+	line-height: 14px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.instagram-playlist .video-nav .arrow-up, .instagram-playlist .video-nav .arrow-down {
+	background: url("demo/css/images/up-arrow.png") no-repeat scroll 0 0 transparent;
+	cursor:pointer;
+	display: block;
+	height: 14px;
+	margin: 0 auto;
+	width: 28px;
+}
+
+.instagram-playlist .video-nav .arrow-down {
+	background:url("demo/css/images/down-arrow.png") no-repeat;
+}
+
+/* Skins
+------------------------*/
+/* Pearl */
+.instagram-playlist.pearl {}
+
+.instagram-playlist.pearl .instagram-photo { background:#E7E4D3; }
+.instagram-playlist.pearl .mejs-container { background:#E7E4D3 url("demo/css/images/lace-bg-2.png"); }
+
+.instagram-playlist.pearl .mejs-container .mejs-controls { background:rgba(163, 159, 144, 0.7); height:37px; }
+.instagram-playlist.pearl .video-nav {}
+
+.instagram-playlist.pearl .video-nav li {
+	background:#887d6e url("demo/css/images/lace-bg.png");
+	border-bottom: 1px solid #5b544a;
+	border-top: 1px solid #ac9e8b;
+}
+.instagram-playlist.pearl .video-nav li:hover { background:#786D5E url("demo/css/images/lace-bg.png"); }
+
+.instagram-playlist.pearl .video-nav li h4 { color:#fbdce0; }
+.instagram-playlist.pearl .video-nav li em {}
+.instagram-playlist.pearl .video-nav li p { color:#fff; }
+
+.instagram-playlist.pearl .video-nav .controls {
+	background: none repeat scroll 0 0 #6c6356;
+	border-top: 1px solid #5c544a;
+		-webkit-box-shadow: inset 0 1px 0 #817667;
+		   -moz-box-shadow: inset 0 1px 0 #817667;
+		        box-shadow: inset 0 1px 0 #817667;
+}
+
+/* Aqua */
+.instagram-playlist.aqua {}
+
+.instagram-playlist.aqua .instagram-photo { background:#a7dbd8; }
+.instagram-playlist.aqua .mejs-container { background:#a7dbd8; }
+
+.instagram-playlist.aqua .mejs-container .mejs-controls { background:rgba(91, 121, 119, 0.7); height:37px; }
+.instagram-playlist.aqua .video-nav {}
+
+.instagram-playlist.aqua .video-nav li {
+	background:#5ebccf;
+	border-bottom: 1px solid #428c9b;
+	border-top: 1px solid #6ed5ea;
+}
+.instagram-playlist.aqua .video-nav li:hover { background:#4EACBF; }
+
+.instagram-playlist.aqua .video-nav li h4 { color:#19606e; }
+.instagram-playlist.aqua .video-nav li em {}
+.instagram-playlist.aqua .video-nav li p { color:#FFFFFF; }
+
+.instagram-playlist.aqua .video-nav .controls {
+	background: #3b6f79;
+	border-top: 1px solid #2c545c;
+		-webkit-box-shadow: inset 0 1px 0 #49909e;
+		   -moz-box-shadow: inset 0 1px 0 #49909e;
+		        box-shadow: inset 0 1px 0 #49909e;
+}
+
+/* Sun */
+.instagram-playlist.sun {}
+
+.instagram-playlist.sun .instagram-photo { background:#ffb914; }
+.instagram-playlist.sun .mejs-container { background:#ffb914; }
+
+.instagram-playlist.sun .mejs-container .mejs-controls { background:rgba(160, 16, 49, 0.5); height:37px; }
+.instagram-playlist.sun .video-nav {}
+
+.instagram-playlist.sun .video-nav li {
+	background:#cb6d20;
+	border-bottom: 1px solid #ab5c1c;
+	border-top: 1px solid #e87d25;
+}
+.instagram-playlist.sun .video-nav li:hover { background:#BB5D10; }
+
+.instagram-playlist.sun .video-nav li h4 {}
+.instagram-playlist.sun .video-nav li em {}
+.instagram-playlist.sun .video-nav li p { color:#feebbe; }
+
+.instagram-playlist.sun .video-nav .controls {
+	background: none repeat scroll 0 0 #a01031;
+	border-top: 1px solid #88122d;
+		-webkit-box-shadow: inset 0 1px 0 #bd163c;
+		   -moz-box-shadow: inset 0 1px 0 #bd163c;
+		        box-shadow: inset 0 1px 0 #bd163c;
+}
+
+/* Future */
+.instagram-playlist.future {}
+
+.instagram-playlist.future .instagram-photo { background:#fff; }
+.instagram-playlist.future .mejs-container { background:#fff; }
+
+.instagram-playlist.future .mejs-container .mejs-controls { background:rgba(0, 0, 0, 0.5); height:37px; }
+.instagram-playlist.future .video-nav {}
+
+.instagram-playlist.future .video-nav li {
+	background:#d7d7d7;
+	border-bottom: 1px solid #bdbdbd;
+	border-top: 1px solid #efefef;
+}
+.instagram-playlist.future .video-nav li:hover { background:#C7C7C7; }
+
+.instagram-playlist.future .video-nav li h4 { color:#6197e2; }
+.instagram-playlist.future .video-nav li em {}
+.instagram-playlist.future .video-nav li p { color:#fff; }
+
+.instagram-playlist.future .video-nav .controls {
+	background-color: #0074cc;
+		*background-color: #0055cc;
+		background-image: -ms-linear-gradient(top, #0088cc, #0055cc);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0055cc));
+		background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+		background-image: -o-linear-gradient(top, #0088cc, #0055cc);
+		background-image: -moz-linear-gradient(top, #0088cc, #0055cc);
+		background-image: linear-gradient(top, #0088cc, #0055cc);
+		background-repeat: repeat-x;
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#0088cc', endColorstr='#0055cc', GradientType=0);
+		filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+
+	border-top: 1px solid #0060aa;
+		-webkit-box-shadow: inset 0 1px 0 #0090ff;
+		   -moz-box-shadow: inset 0 1px 0 #0090ff;
+		        box-shadow: inset 0 1px 0 #0090ff;
+}
+
+/* Dream */
+.instagram-playlist.dream {}
+
+.instagram-playlist.dream .instagram-photo { background:#5A1A77; }
+.instagram-playlist.dream .mejs-container { background:#5A1A77; }
+
+.instagram-playlist.dream .mejs-container .mejs-controls { background:rgba(9, 0, 36, 0.7); height:36px; }
+.instagram-playlist.dream .video-nav {}
+
+.instagram-playlist.dream .video-nav li {
+	background:#380050;
+	border-bottom: 1px solid #180030;
+	border-top: 1px solid #481060;
+}
+.instagram-playlist.dream .video-nav li:hover { background:#2C0044; }
+
+.instagram-playlist.dream .video-nav li h4 {}
+.instagram-playlist.dream .video-nav li em {}
+.instagram-playlist.dream .video-nav li p {}
+
+.instagram-playlist.dream .video-nav .controls {
+	background: none repeat scroll 0 0 #41005A;
+	border-top: 1px solid #16161B;
+		-webkit-box-shadow: inset 0 1px 0 #5F008C;
+		   -moz-box-shadow: inset 0 1px 0 #5F008C;
+		        box-shadow: inset 0 1px 0 #5F008C;
+}
+
+/* Fashion */
+.instagram-playlist.fashion {}
+
+.instagram-playlist.fashion .instagram-photo { background:#1bafc6; }
+.instagram-playlist.fashion .mejs-container { background:#1bafc6; }
+
+.instagram-playlist.fashion .mejs-container .mejs-controls { background:rgba(9, 0, 36, 0.4); height:37px; }
+.instagram-playlist.fashion .video-nav {}
+
+.instagram-playlist.fashion .video-nav li {
+	background:#c69f1c url("demo/css/images/brad-1.jpg");
+	border-bottom: 1px solid #aeaeae;
+	border-top: 1px solid #cccccc;
+}
+.instagram-playlist.fashion .video-nav li:nth-child(even) { background:#1cacc6 url("demo/css/images/brad-2.jpg"); }
+.instagram-playlist.fashion .video-nav li:hover { background:#b79219; }
+.instagram-playlist.fashion .video-nav li:nth-child(even):hover { background:#179cb4; }
+
+.instagram-playlist.fashion .video-nav li h4 {}
+.instagram-playlist.fashion .video-nav li em {}
+.instagram-playlist.fashion .video-nav li p { color:#fff; }
+
+.instagram-playlist.fashion .video-nav .controls {
+	background: #0c4051;
+	border-top: 1px solid #09313e;
+		-webkit-box-shadow: inset 0 1px 0 #1d81a3;
+		   -moz-box-shadow: inset 0 1px 0 #1d81a3;
+		        box-shadow: inset 0 1px 0 #1d81a3;
+}
 
