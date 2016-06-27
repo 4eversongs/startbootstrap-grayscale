@@ -29,6 +29,67 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+
+<link href="css/instagramVideo.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	
+	<!-- Fancybox 2.0 -->
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+	
+	<!-- HTML5 Video -->
+	<script src="js/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="style.css" media="screen">
+	
+	<script type="text/javascript" src="js/dateFormat.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/instagramVideo.js"></script>
+	<script type="text/javascript" src="js/demo.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.demo').instagramVideo({
+				captionOn : true,
+				// userID: '1601618092',
+				mode : 'user',
+				userID: '1601618092',
+				accessToken : '1601618092.1677ed0.8f310bedf0d44ea2ab217b18478cccb2',
+				// tag : "video",
+				galleryMode: 'thumbnail', // thumbnail, list
+				mediaType: 'all' // video, all
+			});
+		});
+	</script>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-18845119-2']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	
+
+
+
+
+
+
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -130,6 +191,12 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
  
+ <div id="middle" class="main-content gallery">
+		<!-- Demonstration -->
+		<div class="demo-container">
+			<div class="demo"></div>
+		</div>
+
  
             </div>
         </div>
