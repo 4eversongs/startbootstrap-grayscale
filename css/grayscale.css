@@ -109,10 +109,17 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle:active {
     outline: 0;
     
-}
+
 /********************************/
 /*     DOES THIS WORK     */
 /********************************/
+
+}
+
+.nav {
+transition-duration: 1s;
+}
+
 .navbar-custom .navbar-brand .navbar-toggle:hover,
     outline: 0;    
     color: #af8b69;
