@@ -128,14 +128,14 @@ a:focus {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0 !important;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out !important;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out !important;
+        transition: background .5s ease-in-out,padding .5s ease-in-out !important;
     }
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 1px solid rgba(255,255,255,.3) !important;
         background: #000 !important;
     }
 }
