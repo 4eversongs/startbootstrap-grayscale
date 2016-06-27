@@ -116,9 +116,6 @@ a:focus {
 
 }
 
-.nav {
-transition-duration: 1s;
-}
 
 .navbar-custom .navbar-brand .navbar-toggle:hover,
     outline: 0;    
