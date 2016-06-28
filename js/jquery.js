@@ -10,9 +10,9 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $('.nav').css('background-color', 'rgba(34,34,34,1)');
+          $('.navbar-fixed-top').css('background-color', 'rgba(34,34,34,1)');
        } else {
-          $('.nav').css('background-color', 'transparent');
+          $('.navbar-fixed-top').css('background-color', 'transparent');
        }
    });
 });
