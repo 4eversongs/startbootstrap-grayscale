@@ -541,6 +541,7 @@ padding-top: 60px; overflow: hidden;
 .responsive-video object,
 .responsive-video embed {
 position: absolute;
+vertical-align: middle;
 top: 0;
 left: 0;
 width: 75%;
